@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CodeEditor from "./components/codeEditor.jsx";
 
-function App() {
+function Main() {
   const [language, setLanguage] = useState("python");
   const [code, setCode] = useState("");
 
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;

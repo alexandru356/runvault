@@ -1,8 +1,10 @@
-const rules = require('./webpack.rules');
+const rules = require("./webpack.rules");
 
 rules.push({
   test: /\.css$/,
-  use: [{ loader: 'style-loader' }, { loader: 'css-loader' },
+  use: [
+    { loader: "style-loader" },
+    { loader: "css-loader" },
     {
       loader: "postcss-loader",
       options: {
