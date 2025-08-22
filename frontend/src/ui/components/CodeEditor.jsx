@@ -2,12 +2,15 @@ import { Editor } from '@monaco-editor/react';
 
 const CodeEditor = () => {
     return(
-        <Editor
-            height="90vh"
-            width="100vh"
-            defaultLanguage="javascript"
-            defaultValue="// some comment"
-        />
+        <div>
+            <Editor className="editor_container"
+                height="90vh"
+                width="50%"
+                defaultLanguage="java"
+                defaultValue="// some comment"
+                theme='vs-dark'
+            />
+        </div>
     )
 }
 

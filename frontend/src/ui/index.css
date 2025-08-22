@@ -1,0 +1,9 @@
+body{
+    background-color: grey;
+}
+
+.editor_container{
+    border-width: 3px;
+    border-color: rgb(255, 123, 0);
+    border-style: solid;
+}
